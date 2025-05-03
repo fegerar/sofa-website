@@ -68,16 +68,13 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-gray-500" /> {/* Slightly dimmer icon color */}
-                <span>info@sofa-tech.com</span>
+                <span>fegerar@proton.me / murad email</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-gray-500" /> {/* Slightly dimmer icon color */}
-                <span>+1 (555) 123-4567</span>
+                <span>+39 351 803 2225 / Murad Phone</span>
               </li>
-              <li className="flex">
-                <MapPin className="h-5 w-5 mr-2 mt-1 text-gray-500" /> {/* Slightly dimmer icon color */}
-                <span>123 Innovation Drive<br />Silicon Valley, CA 94043<br />United States</span>
-              </li>
+              
             </ul>
           </div>
         </div>

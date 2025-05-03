@@ -8,20 +8,10 @@ const Demo: React.FC = () => {
 
   const demoExamples = [
     {
-      title: "Premier League Match Detection",
-      description: "Liverpool vs. Manchester City - 78th minute foul detected with 99.8% confidence",
-      image: "https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-    },
-    {
-      title: "La Liga Analysis",
-      description: "Barcelona vs. Real Madrid - Multiple angles of step-on-foot incident reviewed in seconds",
-      image: "https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-    },
-    {
-      title: "Champions League Integration",
-      description: "Bayern Munich vs. PSG - SOFA providing real-time data to VAR system",
-      image: "https://images.pexels.com/photos/274506/pexels-photo-274506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-    },
+      title: "Monza Roma - Serie A",
+      description: "Foul on Baldanzi detected with 99.8% confidence",
+      image: "/src/assets/video.gif"
+    }
   ];
 
   useEffect(() => {
@@ -85,11 +75,11 @@ const Demo: React.FC = () => {
               <img 
                 src={demoExamples[activeDemo].image} 
                 alt={demoExamples[activeDemo].title}
-                className="w-full h-full object-cover opacity-50"
+                className="w-full h-full object-cover "
               />
               
               {/* Demo Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-6 md:p-8">
+              <div className="absolute inset-0 flex flex-col justify-end p-6 md:p-8">
                 <h3 className="text-white text-xl md:text-2xl font-bold">
                   {demoExamples[activeDemo].title}
                 </h3>
@@ -103,14 +93,7 @@ const Demo: React.FC = () => {
                   Foul Detected
                 </div>
                 
-                <div className="absolute top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                  <div className="h-16 w-16 rounded-full border-2 border-green-500 animate-ping opacity-75"></div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="h-12 w-12 rounded-full bg-green-600 opacity-90 flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">DETECT</span>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
             

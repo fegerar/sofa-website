@@ -7,22 +7,16 @@ const Testimonials: React.FC = () => {
 
   const testimonials = [
     {
-      quote: "SOFA has revolutionized how we analyze fouls during matches. The precision and speed are remarkable.",
-      author: "Carlos Velasco",
-      title: "Head Referee, Spanish Football Federation",
-      avatar: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      quote: "Our goal is to reduce human error in officiating, and SOFA's technology is a game-changer.",
+      author: "Federico Gerardi",
+      title: "SOFA Developer",
+      avatar: ""
     },
     {
-      quote: "Implementing SOFA in our VAR system has led to 34% more accurate decisions on step-on-foot incidents.",
-      author: "Emma Johnson",
-      title: "Technical Director, Premier League",
-      avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-    },
-    {
-      quote: "The speed and accuracy of SOFA's detection helps us maintain the flow of the game while ensuring fair play.",
-      author: "Marco Rossi",
-      title: "VAR Specialist, Serie A",
-      avatar: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+      quote: "Technology is the future of football officiating, and SOFA is leading the way.",
+      author: "Murad Huseynov",
+      title: "SOFA Developer",
+      avatar: ""
     }
   ];
 
@@ -63,9 +57,9 @@ const Testimonials: React.FC = () => {
         ref={testimonialsRef}
       >
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold">Trusted by Industry Professionals</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Our Idea</h2>
           <p className="mt-4 text-dark-text-secondary max-w-3xl mx-auto">
-            See what football organizations and experts are saying about SOFA technology.
+            Our developers are passionate about using technology to enhance the game of football.
           </p>
         </div>
 

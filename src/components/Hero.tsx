@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { ArrowRight } from 'lucide-react';
+import video from '../assets/video.gif';
 
 const Hero: React.FC = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -57,7 +58,7 @@ const Hero: React.FC = () => {
           <div className="relative">
             <div className="aspect-video bg-gradient-to-tr from-dark-bg-secondary to-gray-700 rounded-lg shadow-xl overflow-hidden">
               <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-dark-text-secondary text-lg font-medium">Demo Video Placeholder</p>
+                <p className="text-dark-text-secondary text-lg font-medium"><img src={video} /></p>
               </div>
             </div>
             <div className="absolute -bottom-4 -right-4 bg-green-500 text-white px-4 py-2 rounded-md shadow-lg">
