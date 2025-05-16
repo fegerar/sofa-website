@@ -45,34 +45,34 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-white font-semibold text-lg mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-accent transition-colors">Documentation</a> {/* Accent hover */}
+                <a href="#" className="hover:text-accent transition-colors">Documentation</a> 
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">API Reference</a> {/* Accent hover */}
+                <a href="#" className="hover:text-accent transition-colors">API Reference</a> 
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">Case Studies</a> {/* Accent hover */}
+                <a href="#" className="hover:text-accent transition-colors">Case Studies</a> 
               </li>
               <li>
-                <a href="#" className="hover:text-accent transition-colors">Blog</a> {/* Accent hover */}
+                <a href="#" className="hover:text-accent transition-colors">Blog</a> 
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 text-gray-500" /> {/* Slightly dimmer icon color */}
-                <span>fegerar@proton.me / murad email</span>
+                <span>fegerar@proton.me / huseynovmurad2002@gmail.com</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 text-gray-500" /> {/* Slightly dimmer icon color */}
-                <span>+39 351 803 2225 / Murad Phone</span>
+                <span>+39 351 803 2225 / +36 70 675 4679</span>
               </li>
               
             </ul>

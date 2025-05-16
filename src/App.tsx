@@ -15,7 +15,7 @@ function App() {
         <Features />
         <Demo />
         <Testimonials />
-        <CallToAction />
+        {/* <CallToAction /> */}
       </main>
       <Footer />
     </div>

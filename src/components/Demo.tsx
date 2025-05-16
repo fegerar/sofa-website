@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Play, Pause, SkipBack, SkipForward } from 'lucide-react';
+import video from '../assets/video.gif';
+
 
 const Demo: React.FC = () => {
   const demoRef = useRef<HTMLDivElement>(null);
@@ -10,7 +11,7 @@ const Demo: React.FC = () => {
     {
       title: "Monza Roma - Serie A",
       description: "Foul on Baldanzi detected with 99.8% confidence",
-      image: "/src/assets/video.gif"
+      image: video
     }
   ];
 
@@ -98,7 +99,7 @@ const Demo: React.FC = () => {
             </div>
             
             {/* Controls */}
-            <div className="bg-dark-bg-secondary p-4 flex items-center justify-between">
+            {/* <div className="bg-dark-bg-secondary p-4 flex items-center justify-between">
               <div className="flex space-x-2">
                 <button 
                   onClick={handlePrev}
@@ -131,7 +132,7 @@ const Demo: React.FC = () => {
                   />
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

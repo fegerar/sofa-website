@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Quote } from 'lucide-react';
+import murad from '../assets/murad.png';
+import federico from '../assets/federico.jpeg';
 
 const Testimonials: React.FC = () => {
   const testimonialsRef = useRef<HTMLDivElement>(null);
@@ -10,13 +12,13 @@ const Testimonials: React.FC = () => {
       quote: "Our goal is to reduce human error in officiating, and SOFA's technology is a game-changer.",
       author: "Federico Gerardi",
       title: "SOFA Developer",
-      avatar: ""
+      avatar: federico
     },
     {
       quote: "Technology is the future of football officiating, and SOFA is leading the way.",
       author: "Murad Huseynov",
       title: "SOFA Developer",
-      avatar: ""
+      avatar: murad
     }
   ];
 
